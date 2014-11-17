@@ -7,7 +7,7 @@ import time
 AUTHOR = u'John Vrbanac'
 SITENAME = u'Flux.Ninja'
 SITESUBTITLE = u'The opinionated comments of a software engineer'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://flux.ninja'
 COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 
 PATH = 'content'
