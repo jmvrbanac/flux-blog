@@ -1,21 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from collections import namedtuple
+import time
 
 AUTHOR = u'John Vrbanac'
 SITENAME = u'Flux.Ninja'
 SITESUBTITLE = u'The opinionated comments of a software engineer'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
+COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 
 PATH = 'content'
-THEME = 'themes/bootstrap3'
-BOOTSTRAP_THEME = 'yeti'
+THEME = 'themes/flux'
+# BOOTSTRAP_THEME = 'yeti'
 
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
 
 STATIC_PATHS = ['images']
-PROFILE_PICTURE = "profile_picture.jpg"
+PROFILE_PICTURE = ('https://22ec0acdb748a8b4898b-a208547a665e9daef6b0974a'
+                   'b1daf34d.ssl.cf2.rackcdn.com/profile_picture.jpg')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,21 +28,26 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+Link = namedtuple('Link', ['name', 'icon', 'href'])
+LINKS = [
+    Link('GitHub', 'fa-github', 'https://github.com/jmvrbanac'),
+    Link('Google+', 'fa-google-plus-square',
+         'https://plus.google.com/+JohnVrbanac'),
+    Link('LinkedIn', 'fa-linkedin',
+         'https://www.linkedin.com/pub/john-vrbanac/'),
+    Link('jvrbanac', 'fa-slack', 'http://webchat.freenode.net/')
+]
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Custom Menu Items
+MENUITEMS = (('Home', '/'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 4
 USE_FOLDER_AS_CATEGORY = True
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
+
+DISQUS_SITENAME = 'flux-ninja-blog'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
