@@ -12,7 +12,8 @@ COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 
 PATH = 'content'
 THEME = 'themes/flux'
-# BOOTSTRAP_THEME = 'yeti'
+
+MD_EXTENSIONS = ['codehilite(linenums=True, css_class=codehilite)', 'extra']
 
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
@@ -50,4 +51,4 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 DISQUS_SITENAME = 'flux-ninja-blog'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
