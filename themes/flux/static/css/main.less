@@ -182,20 +182,25 @@ div.page_title {
 }
 
 div.article {
+  max-width: 65em;
+
   div.page_title {
     width: 75%;
+    line-height: 1.8em;
 
     div.color_bar {
       width: 100%;
     }
     div.article_meta span {
       color: @light_gray;
+      font-size: 0.8em;
       text-transform: uppercase;
       padding-right: 1em;
     }
   }
   div.article_content {
     padding-right: 4em;
+    max-width: 75%;
 
     a {
       color: @header_blue;
@@ -253,6 +258,14 @@ a {
 .codehilite {
     margin: 0 1em;
 }
+
+/* Comments */
+.comments {
+  max-width: 65em;
+}
+
+
+/* Other */
 
 @media screen {
   body>div.header{

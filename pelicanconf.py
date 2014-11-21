@@ -51,4 +51,4 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 DISQUS_SITENAME = 'flux-ninja-blog'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False
+#RELATIVE_URLS = True
