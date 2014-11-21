@@ -5,7 +5,11 @@ Tags: Tools, FlashDevelop
 Slug: fd4-dawn-color-scheme
 Authors: John Vrbanac
 
-For those developers who enjoy a darker editing window with their IDEs, you might enjoy this color scheme for Flash Develop 4. I use it quite extensively as I'm a bit of a sucker for dark gray and blue syntax highlighting. Currently, I only have the highlighting done for AS2, AS3, XML, and plain text. Enjoy!
+For those developers who enjoy a darker editing window with their
+IDEs, you might enjoy this color scheme for Flash Develop 4. I use it
+quite extensively as I'm a bit of a sucker for dark gray and blue
+syntax highlighting. Currently, I only have the highlighting done for
+AS2, AS3, XML, and plain text. Enjoy!
 
 **Sample:**
 

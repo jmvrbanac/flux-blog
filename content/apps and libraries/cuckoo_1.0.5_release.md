@@ -5,7 +5,13 @@ Tags: Alarm, Cuckoo, Linux, PPA, Python, Ubuntu
 Slug: cuckoo-1.0.5-release
 Authors: John Vrbanac
 
-I've pushed out a new version of Cuckoo. I fixed a number of UI issues that were bugging me; including the list sorting issue that I mentioned earlier. I believe that I also fixed the locale issue that clepto1995 (reddit user) reported. Thank you for finding that! Please let me know if y'all see any bugs that need to get tackled. If you have ideas for features or would like to get involved with the project just let me know. Thanks!
+I've pushed out a new version of Cuckoo. I fixed a number of UI issues
+that were bugging me; including the list sorting issue that I mentioned
+earlier. I believe that I also fixed the locale issue that clepto1995
+(reddit user) reported. Thank you for finding that! Please let me know
+if y'all see any bugs that need to get tackled. If you have ideas for
+features or would like to get involved with the project just let me know.
+Thanks!
 
 
 Screenshots:
