@@ -15,8 +15,8 @@ If you're interesting in some of the changes included in this release
 please take a look at the [release notes](http://specter.readthedocs.
 org/en/latest/release_notes/index.html).
 
-This latest version is also provided in wheel format for faster download
-and installation.
+This latest version is also provided in wheel format for quicker
+installation.
 
 **Project Links:**
 
