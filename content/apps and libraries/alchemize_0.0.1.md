@@ -1,4 +1,4 @@
-Title: Alchemize 0.0.1 Release
+Title: Alchemize - Easy (De)serialization Models
 Date: 2014-12-20
 Modified: 2014-12-20 01:00
 Tags: Python, PyPI, Library, Alchemize, Models
