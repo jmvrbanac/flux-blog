@@ -10,7 +10,7 @@ when I opened gparted to format it, gparted gave me the following error "The
 driver descriptor says the physical block size is 2048 bytes, but Linux says
 it is 512 bytes".
 
-This is usually caused by accidently using the wrong block size when copied an
+This is usually caused by accidently using the wrong block size when copying an
 iso to the drive. This is an annoying problem, but it's rather easy to fix.
 
 The way I fix this problem is to use ```dd``` to write the correct block size
