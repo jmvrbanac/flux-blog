@@ -1,6 +1,6 @@
 Title: Fixing the block size on a usb drive
 Date: 2016-3-12
-Modified: 2016-3-12 12:54
+Modified: 2016-7-13 11:30
 Tags: Linux, gparted
 Slug: fixing-usb-drive-block-size
 Authors: John Vrbanac
@@ -19,7 +19,7 @@ back onto the disk and then reformat the drive.
 Here is the command I use:
 
 ```shell
-sudo dd if=/dev/zero of=/dev/<id_of_your_device> bs=2048
+sudo dd if=/dev/zero of=/dev/<id_of_your_device> bs=2048; sync
 ```
 
 Once this has completed, open gparted. Create a new partition table (gpt or msdos)
