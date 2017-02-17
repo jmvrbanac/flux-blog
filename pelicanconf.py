@@ -10,6 +10,7 @@ SITESUBTITLE = u'The opinionated comments of a software engineer'
 SITEURL = 'http://flux.ninja'
 COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 
+PLUGINS=['extended_sitemap',]
 PATH = 'content'
 THEME = 'themes/flux'
 
@@ -23,6 +24,21 @@ MARKDOWN = {
         'markdown.extensions.meta': {},
     },
     'output_format': 'html5',
+}
+
+EXTENDED_SITEMAP_PLUGIN = {
+    'priorities': {
+        'index': 1.0,
+        'articles': 0.8,
+        'pages': 0.5,
+        'others': 0.4
+    },
+    'changefrequencies': {
+        'index': 'daily',
+        'articles': 'weekly',
+        'pages': 'monthly',
+        'others': 'monthly',
+    }
 }
 
 TIMEZONE = 'America/Chicago'
