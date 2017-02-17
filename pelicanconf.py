@@ -13,7 +13,17 @@ COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 PATH = 'content'
 THEME = 'themes/flux'
 
-MD_EXTENSIONS = ['codehilite(linenums=True, css_class=codehilite)', 'extra']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {
+            'css_class': 'highlight',
+            'linenums': True,
+        },
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 
 TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = u'en'
