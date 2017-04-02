@@ -7,7 +7,7 @@ import time
 AUTHOR = u'John Vrbanac'
 SITENAME = u'Flux.Ninja'
 SITESUBTITLE = u'The opinionated comments of a software engineer'
-SITEURL = 'http://flux.ninja'
+SITEURL = 'https://flux.ninja'
 COPYRIGHT = '&copy; 2012-{0} John Vrbanac'.format(time.strftime('%Y'))
 
 PLUGINS=['extended_sitemap',]
@@ -77,4 +77,4 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}.html'
 DISQUS_SITENAME = 'flux-ninja-blog'
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
